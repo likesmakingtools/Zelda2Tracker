@@ -1,0 +1,15 @@
+﻿Needed Things
+- Graphics for Save/Load buttons (switch to image click)
+- Graphics for Big/Small buttons (switch to image click)
+- Add Heart/Magic container counters
+- Add Attack/Magic/Heart levels
+
+General Issues
+- group color is yellow instead of blue if all collectible items are already collected
+- update all ellipses within group when un/marking group parent as collected
+
+Feature Improvements
+- either add toggle to ignore candle or make candle items show yellow without candle
+
+Roadmap
+- Second Quest

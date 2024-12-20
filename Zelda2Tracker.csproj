@@ -1,0 +1,395 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Collection_Keys.png" />
+    <None Remove="Images\Collection_LinkDolls.png" />
+    <None Remove="Images\Collection_Slimes.png" />
+    <None Remove="Images\Gem.png" />
+    <None Remove="Images\Gem_Off.png" />
+    <None Remove="Images\Item_AKey.png" />
+    <None Remove="Images\Item_AKey_Off.png" />
+    <None Remove="Images\Item_Book.png" />
+    <None Remove="Images\Item_Book_Off.png" />
+    <None Remove="Images\Item_Boots.png" />
+    <None Remove="Images\Item_Boots_Off.png" />
+    <None Remove="Images\Item_Bracelet.png" />
+    <None Remove="Images\Item_Bracelet_Off.png" />
+    <None Remove="Images\Item_Candle.png" />
+    <None Remove="Images\Item_Candle_Off.png" />
+    <None Remove="Images\Item_Cross.png" />
+    <None Remove="Images\Item_Cross_Off.png" />
+    <None Remove="Images\Item_Fairy.png" />
+    <None Remove="Images\Item_Fairy_Off.png" />
+    <None Remove="Images\Item_Flower.png" />
+    <None Remove="Images\Item_Flower_Off.png" />
+    <None Remove="Images\Item_Flute.png" />
+    <None Remove="Images\Item_Flute_Off.png" />
+    <None Remove="Images\Item_Glove.png" />
+    <None Remove="Images\Item_Glove_Off.png" />
+    <None Remove="Images\Item_Hammer.png" />
+    <None Remove="Images\Item_Hammer_Off.png" />
+    <None Remove="Images\Item_Kid.png" />
+    <None Remove="Images\Item_Kid_Off.png" />
+    <None Remove="Images\Item_Letter.png" />
+    <None Remove="Images\Item_Letter_Off.png" />
+    <None Remove="Images\Item_Mirror.png" />
+    <None Remove="Images\Item_Mirror_Off.png" />
+    <None Remove="Images\Item_Raft.png" />
+    <None Remove="Images\Item_Raft_Off.png" />
+    <None Remove="Images\Item_Trophy.png" />
+    <None Remove="Images\Item_Trophy_Off.png" />
+    <None Remove="Images\MapGrid.png" />
+    <None Remove="Images\Palace_01.png" />
+    <None Remove="Images\Palace_02.png" />
+    <None Remove="Images\Palace_03.png" />
+    <None Remove="Images\Palace_04.png" />
+    <None Remove="Images\Palace_05.png" />
+    <None Remove="Images\Palace_06.png" />
+    <None Remove="Images\Palace_07.png" />
+    <None Remove="Images\ProgressionGrid.png" />
+    <None Remove="Images\Skill_Downthrust.png" />
+    <None Remove="Images\Skill_Downthrust_Off.png" />
+    <None Remove="Images\Skill_Upthrust.png" />
+    <None Remove="Images\Skill_Upthrust_Off.png" />
+    <None Remove="Images\Spell_Enigma.png" />
+    <None Remove="Images\Spell_Enigma_Off.png" />
+    <None Remove="Images\Spell_Fairy.png" />
+    <None Remove="Images\Spell_Fairy_Off.png" />
+    <None Remove="Images\Spell_Fire.png" />
+    <None Remove="Images\Spell_Fire_Off.png" />
+    <None Remove="Images\Spell_Heal.png" />
+    <None Remove="Images\Spell_Heal_Off.png" />
+    <None Remove="Images\Spell_Jump.png" />
+    <None Remove="Images\Spell_Jump_Off.png" />
+    <None Remove="Images\Spell_Protect.png" />
+    <None Remove="Images\Spell_Protect_Off.png" />
+    <None Remove="Images\Spell_Reflect.png" />
+    <None Remove="Images\Spell_Reflect_Off.png" />
+    <None Remove="Images\Spell_Thunder.png" />
+    <None Remove="Images\Spell_Thunder_Off.png" />
+    <None Remove="Images\_0.png" />
+    <None Remove="Images\_1.png" />
+    <None Remove="Images\_10.png" />
+    <None Remove="Images\_11.png" />
+    <None Remove="Images\_12.png" />
+    <None Remove="Images\_13.png" />
+    <None Remove="Images\_14.png" />
+    <None Remove="Images\_15.png" />
+    <None Remove="Images\_16.png" />
+    <None Remove="Images\_17.png" />
+    <None Remove="Images\_18.png" />
+    <None Remove="Images\_2.png" />
+    <None Remove="Images\_3.png" />
+    <None Remove="Images\_4.png" />
+    <None Remove="Images\_5.png" />
+    <None Remove="Images\_6.png" />
+    <None Remove="Images\_7.png" />
+    <None Remove="Images\_8.png" />
+    <None Remove="Images\_9.png" />
+    <None Remove="Images\_Palace01.png" />
+    <None Remove="Images\_Palace02.png" />
+    <None Remove="Images\_Palace03.png" />
+    <None Remove="Images\_Palace04.png" />
+    <None Remove="Images\_Palace05.png" />
+    <None Remove="Images\_Palace06.png" />
+    <None Remove="Images\_Palace07.png" />
+    <None Remove="Images\_WorldMap.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Collection_Keys.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Collection_LinkDolls.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Collection_Slimes.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Gem.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Gem_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\MapGrid.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Palace_01.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Palace_02.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Palace_03.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Palace_04.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Palace_05.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Palace_06.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Palace_07.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Item_AKey.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_AKey_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Book.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Book_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Boots.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Boots_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Bracelet.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Bracelet_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Candle.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Candle_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Cross.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Cross_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Fairy.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Fairy_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Flower.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Flower_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Flute.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Flute_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Glove.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Glove_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Hammer.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Hammer_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Kid.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Kid_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Letter.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Letter_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Mirror.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Mirror_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Raft.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Raft_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Trophy.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Item_Trophy_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\ProgressionGrid.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Skill_Downthrust.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Skill_Downthrust_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Skill_Upthrust.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Skill_Upthrust_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Spell_Enigma.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Spell_Enigma_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Spell_Fairy.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Spell_Fairy_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Spell_Fire.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Spell_Fire_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Spell_Heal.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Spell_Heal_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Spell_Jump.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Spell_Jump_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Spell_Protect.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Spell_Protect_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Spell_Reflect.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Spell_Reflect_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Spell_Thunder.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Spell_Thunder_Off.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\ZeldaII_Map_Big.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_0.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_10.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_11.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_12.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_13.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_14.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_15.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_16.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_17.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_18.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_3.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_4.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_5.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_6.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_7.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_8.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_9.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_Palace01.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_Palace02.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_Palace03.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_Palace04.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_Palace05.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_Palace06.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_Palace07.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\_WorldMap.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
